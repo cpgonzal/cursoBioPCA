@@ -1,0 +1,90 @@
+
+
+/* Whole document: */
+body{
+  font-family: Helvetica;
+  font-size: 14pt;
+}
+
+p, ul, li {
+    font-size: 14pt;
+}
+
+
+/* slide titles */
+/* Headers */
+h2, h3,h4,h5,h6{
+  font-size: 14pt;
+}
+
+h1 {
+  font-size: 40px!important;
+}
+
+
+h1.subtitle {
+  font-size: 30px!important;
+}
+
+.reveal .slides section .slideContent h1 { 
+  font-size: 40%;
+  color: blue;
+}
+
+
+.reveal h3 { 
+  font-size: 40%;
+  color: blue;
+}
+
+/* heading for slides with two hashes ## */
+.reveal .slides section .slideContent h2 {
+   font-size: 40%;
+   /*font-weight: bold;*/
+   color: green;
+}
+
+/* ordered and unordered list styles */
+.reveal ul, 
+.reveal ol {
+    font-size: 40%;
+    color: red;
+    list-style-type: square;
+}
+
+
+code.r{
+  font-size: 80%;
+}
+pre {
+  font-size: 70%
+}
+
+
+.title-slide {
+    height: 90%; 
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-slide h1 {display:table-cell; vertical-align:middle}
+
+
+.titlepage2 {
+    height: 40%; 
+    width:40%;
+    background-image: url("dog_question.jpg");
+}
+
+.title-slide2 {
+bottom: 55px;
+left: 480px;
+text-align: center;
+}
+
+.reveal .title-slide2 { top: 50%; -webkit-transform: translate(0, -50%); position: absolute; }
+
+
+
