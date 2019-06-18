@@ -1,3 +1,2 @@
-Curso de Machine learning y bioinformática: análisis de componentes principales
+Gh-pages
 ======================================================
-Jornada de introducción a la Genómica y la Bioinformática
