@@ -3,3 +3,6 @@
 .RData
 .Ruserdata
 cursoBioPCA.Rproj
+generaIntro.R
+intro.Rmd
+intro.md
